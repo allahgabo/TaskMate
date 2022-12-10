@@ -1,0 +1,32 @@
+WHAT IS DJANGO 
+
+DJANGO IS FREE OPEN SOURCE WEB APPLICATION FRAMEWORK
+
+OPEN SOURCES
+A PROJECTFOR WHICH THE ORIGINAL SOURCE CODE IS MADE FRRELY AVAILABLE AND MAY BE REDISTRUBTED AND MODIFIED ACCORDING YO THE REQUIREMENT OF USER
+
+WEB APPLICATION 
+FRAMEWORK GIVES YOU BAISC STRUCTURE AROUND WHICH YOU WILL WRITE YOUR CODE TO HAVE THE GREATER FUNCTIONITY OF THE SYSTEM
+
+
+WHAT WE CAN DO WITH DJANGO 
+
+
+WHY DJANGO 
+
+
+install github
+install heroku
+cmd heroku 
+cmd heroku login then fill the user and password
+create repostry 
+
+inside the ven
+
+requirement.txt help us to track the libaries
+pip freeze
+pip freeze > requirements.txt
+
+create .gitignore
+pip install django-environ
+create .env

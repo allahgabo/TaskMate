@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{%block title %} <title>Edit Task </title> {% endblock title %}
+
+{% block content %}
+
+<div class="container"><br>
+	
+	{% if task_obj.manger == request.user %}
+	<form method="post" class="row">
+	{% csrf_token %}
+ 	<div class="form-group">
+  		<label class="clo-lg-4"></label>
+	    <input type="text" class="form-control" name="task" placeholder="{{task_obj.task}} " value="{{task_obj.task}}"><br>
+	    <input type="hidden" name="done" value="{{task_obj.done}}">
+	  </div><br>
+	  <button type="submit" class="btn btn-primary clo-lg-2">Update Task </button>
+
+	</form>
+	{% else %}
+	<p>You cant access this page </p>
+	{% endif %}
+
+</div>
+
+{% endblock content %}

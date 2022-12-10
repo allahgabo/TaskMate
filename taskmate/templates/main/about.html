@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{%block title %} <title>About US </title> {% endblock title %}
+
+{% block content %}
+
+<div class="container">
+	<div class="row">
+	<img src="{% static 'images/about.jpg' %}" class="img-fluid" alt="About us "  height="20px">
+	</div>
+	<div class="row">
+		<div class="mt-5">
+			<h1 class="text-center">About Us </h1>
+			<p class="text-center">
+				The Lorm alphabet is a method of tactile signing named after Hieronymus Lormsigning named after Hieronymus Lorm, who </p>
+				<p class="text-center">developed it in the late 19th century. Letters are spelled by tapping or stroking different parts of the listener's hand. The Lorm alphabet is mostly used in German-speaking countries, the Netherlands, Czech Republic, Poland
+			</p>
+		</div>
+	</div>
+</div>
+
+
+
+{% endblock content %}
